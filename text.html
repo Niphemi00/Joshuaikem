@@ -1,35 +1,6 @@
 
-<style>
-  .market-deals {
-    background-color: aqua;
-    color:blueviolet;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left:  50px;
-    margin-right: 50px;
-    font-size: 15px;
-    font-family: roboto;
-    font-weight:bold;
-    border-radius: 6px;
-    border: none;
-    
-    }
-</style>
 
-<button class="market-deals">
-  buy now
-</button>
-<button>
-  sell this betslip 
-</button>
-<p>
-  ikem willams is my junior bro
-</p>
-<a href="https://www.sportybet.com/ng/m/" target="_blank">
-  link to sportybet
-</a>
-
-
+ 
 <style>
 
   .shoe-ads {
@@ -66,11 +37,19 @@
     margin-right: 50px;
     margin-left: 50px;
     margin-top: 50px;
+    transition: color 0.15s;
       
   }
-
+  .link:hover {
+    color: orange;
+  }
+  .link:active {
+    color: blue;
+    font-style: italic;
+ 
+  }
+  
   .stock-price {
-
     color:rgb(0, 118, 0);
 
     width: 10px;
@@ -116,14 +95,58 @@
     margin-right: 80px;
     margin-top: 50px;
     margin-bottom: 50px;
+    transition: opacity 0.15s;
+    cursor: pointer;
   }
+  .cart-button:hover {
+    background-color: orange;
+  }
+  .cart-button:active {
+    opacity: 0.6;
+  
+  }
+  .buy-button {
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: yellow;
+    border-style: solid;
+    border-color: blue;
+    border-width:15px;
+    transition: opacity 0.15s;
+    color:white;
+    
+    
       
-
-      
-     
-
+  }
+  .buy-button:hover {
+    background-color: white;
+    color: yellow;
+    opacity: 0.6;
+    
+  }
+  .buy-button:active {
+    background-color: white;
+    color: yellow;
+    opacity: 0.3;
+  }
+  .offer-button {
+    height:40px;
+    border-radius:20px;
+    width:80px;
+    background-color: blue;
+    color: white;
+    Font-style: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    
+  }
+  .offer-button:hover {
+    box-shadow: (25px, 25px, 25px) rgba(0, 0, 0, 0.15)
+  }
 </style>
-
 <a href="https://www.amazon.com/" target="_blank" class="link">
 
 back to amazon
@@ -149,4 +172,5 @@ back to amazon
 </p>
 <button class="cart-button">add to cart</button>
 
-
+<button class="buy-button">buy now</button>
+<button class="offer-button">new offers</button>
